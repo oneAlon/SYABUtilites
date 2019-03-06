@@ -1,5 +1,11 @@
 PODS:
-  - SYABUtilites (0.1.0)
+  - SYABUtilites (0.0.1):
+    - SYABUtilites/Macro (= 0.0.1)
+    - SYABUtilites/UIApplication (= 0.0.1)
+    - SYABUtilites/UIDevice (= 0.0.1)
+  - SYABUtilites/Macro (0.0.1)
+  - SYABUtilites/UIApplication (0.0.1)
+  - SYABUtilites/UIDevice (0.0.1)
 
 DEPENDENCIES:
   - SYABUtilites (from `../`)
@@ -9,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYABUtilites: 9f234d65f445c7a31d99652469391b26b76359c0
+  SYABUtilites: 94eefb367e07afd9aaab9092f1c9f6cfeaf21785
 
 PODFILE CHECKSUM: b3f968713c06ad0f888fb2783c9bcd324724f607
 

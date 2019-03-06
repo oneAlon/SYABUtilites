@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import SYABUtilites
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        UIApplication.shared.syab_openAppStore(appId: "876243")
     }
 
     override func didReceiveMemoryWarning() {

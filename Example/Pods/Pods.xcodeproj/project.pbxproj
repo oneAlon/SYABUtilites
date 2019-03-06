@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20877811D675836BF44ADDAE85AC572A /* SYABUtilites-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8839593280AB087E3AFF624695DF40 /* SYABUtilites-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23AE1F5ED2111B5C9779448461754192 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6343F861123D2D80EA101ED8AF0EF /* ReplaceMe.swift */; };
+		1D8E75A102BDE7D53C0F026931849DBD /* UIApplication+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D32EC752DEAB6DA5E5A1AAFC17B4AC /* UIApplication+SYAB.swift */; };
+		20877811D675836BF44ADDAE85AC572A /* SYABUtilites-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E6F9262A0242CDFC5F088A5867C095 /* SYABUtilites-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6374B0904D23E0CCFD62A981536F44BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		6E4C834ABB7BCF23284316200ECBDAB4 /* Pods-SYABUtilites_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F702FE23B0078647724959224242144 /* Pods-SYABUtilites_Example-dummy.m */; };
 		847C58CAD855D0B87B70855FE6B5CB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		88581B47222FAA8900804279 /* UIDevice+SYAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88581B46222FAA8900804279 /* UIDevice+SYAB.swift */; };
 		98523922FEFBC6F5C9504E8F02D7171F /* Pods-SYABUtilites_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8A5F22D6EBBD214CB5629D4FD101FD /* Pods-SYABUtilites_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C92E6B992741D2E095E2FFB58341FE /* SYABConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC634A6D542B32C793A92769D073DFA4 /* SYABConst.swift */; };
 		ABD6C38E2075A17DA005D28A8F463FA3 /* Pods-SYABUtilites_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF5A4E6FE03DFD36C6F8883017EA97F /* Pods-SYABUtilites_Tests-dummy.m */; };
 		C6A0797F9BE750C416FCF22DEF82AABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		D9AA3C12970ECB695B3660282C8D3E18 /* SYABUtilites-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F3DE3F825CEC080A582C6FB9CC201A /* SYABUtilites-dummy.m */; };
 		E9252FEC3DDB86235C45716CE28DCB81 /* Pods-SYABUtilites_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C269F894E172ACB3BCC74C9E56FE10A9 /* Pods-SYABUtilites_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED156363720656ED55E51B154003E2EE /* SYABUtilites-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8C72EEC9824E280FE686CAD87DE80 /* SYABUtilites-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,36 +41,38 @@
 /* Begin PBXFileReference section */
 		044CB5A32D96BEA60122A5BDA0A90E8F /* Pods-SYABUtilites_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYABUtilites_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		079B5F1361B7206BC89E8DB549CAB7CD /* Pods-SYABUtilites_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYABUtilites_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0BB6343F861123D2D80EA101ED8AF0EF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SYABUtilites/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0F8A5F22D6EBBD214CB5629D4FD101FD /* Pods-SYABUtilites_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYABUtilites_Example-umbrella.h"; sourceTree = "<group>"; };
 		164F342263A81B63A5311A08EE892CCF /* Pods-SYABUtilites_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYABUtilites_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		193B018F7C8B1DB0458A741FAE2B30CA /* SYABUtilites.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SYABUtilites.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		1B84B989ABB55B3E825F3E887CB9CAC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1CB63B0ACA229426CF1608567ECC4E1C /* Pods-SYABUtilites_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYABUtilites_Example.modulemap"; sourceTree = "<group>"; };
 		23E151BFD7EF7023F75E8F5146F91A51 /* Pods-SYABUtilites_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYABUtilites_Tests.modulemap"; sourceTree = "<group>"; };
-		3091CFE02D58CD7FACE0441CEB8E5AD7 /* SYABUtilites-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYABUtilites-Info.plist"; sourceTree = "<group>"; };
+		2FE8C72EEC9824E280FE686CAD87DE80 /* SYABUtilites-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYABUtilites-dummy.m"; sourceTree = "<group>"; };
 		309AD47290CF422C0BE9DA99D1A1B92F /* Pods-SYABUtilites_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYABUtilites_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		320797E1038CD6F0265417A155140F7D /* Pods-SYABUtilites_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYABUtilites_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3544153049F58F9EA7DA4F9893BBC051 /* Pods_SYABUtilites_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABUtilites_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA51382479EE64D8B830CAA00BD6F56 /* Pods-SYABUtilites_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYABUtilites_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F702FE23B0078647724959224242144 /* Pods-SYABUtilites_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYABUtilites_Example-dummy.m"; sourceTree = "<group>"; };
-		56F3DE3F825CEC080A582C6FB9CC201A /* SYABUtilites-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYABUtilites-dummy.m"; sourceTree = "<group>"; };
-		64E476DC4F41A6FE766483A7F61544A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6EDCD3902E1BFC85B8F991453C31CB07 /* SYABUtilites-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABUtilites-prefix.pch"; sourceTree = "<group>"; };
+		70B8A1DED16F34BB96843EFB577671FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		71ADAE5B69AC2B225230855D34068FE4 /* Pods-SYABUtilites_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYABUtilites_Example-Info.plist"; sourceTree = "<group>"; };
+		771316A320C9FC7752C2A30B29B2E840 /* SYABUtilites.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SYABUtilites.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82D32EC752DEAB6DA5E5A1AAFC17B4AC /* UIApplication+SYAB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+SYAB.swift"; path = "SYABUtilites/Classes/UIApplication/UIApplication+SYAB.swift"; sourceTree = "<group>"; };
+		88581B46222FAA8900804279 /* UIDevice+SYAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+SYAB.swift"; sourceTree = "<group>"; };
 		8A7D9475DB02639A580DCE90A0981537 /* Pods-SYABUtilites_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYABUtilites_Tests-Info.plist"; sourceTree = "<group>"; };
-		9459B01733256B3CA367C229ADFA32F7 /* SYABUtilites.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYABUtilites.xcconfig; sourceTree = "<group>"; };
 		9467261B818654E74AA5CF11618594FD /* Pods-SYABUtilites_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYABUtilites_Example-frameworks.sh"; sourceTree = "<group>"; };
+		98DC041C5037E90FD285238E22972D07 /* SYABUtilites-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYABUtilites-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDA47E35942F0B2F62BAAC2C02571BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AE2B6404A26D37BDE7C57E730FE3EE7E /* Pods-SYABUtilites_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYABUtilites_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5B06A0BB7F44EA98F0924D7F90766BB /* SYABUtilites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYABUtilites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E6F9262A0242CDFC5F088A5867C095 /* SYABUtilites-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABUtilites-umbrella.h"; sourceTree = "<group>"; };
 		C269F894E172ACB3BCC74C9E56FE10A9 /* Pods-SYABUtilites_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYABUtilites_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CA04E9A712474E73D5E6CD29C834E9C3 /* SYABUtilites.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYABUtilites.modulemap; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFF5A4E6FE03DFD36C6F8883017EA97F /* Pods-SYABUtilites_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYABUtilites_Tests-dummy.m"; sourceTree = "<group>"; };
 		D5D12D3D33E34E360DF4B82866D7A10A /* Pods-SYABUtilites_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYABUtilites_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DF8839593280AB087E3AFF624695DF40 /* SYABUtilites-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABUtilites-umbrella.h"; sourceTree = "<group>"; };
-		FD1BE02AA6DC81808D1179209C3376C5 /* SYABUtilites.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYABUtilites.modulemap; sourceTree = "<group>"; };
+		DC634A6D542B32C793A92769D073DFA4 /* SYABConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SYABConst.swift; path = SYABUtilites/Classes/Macro/SYABConst.swift; sourceTree = "<group>"; };
+		DD6F4F7F72F6F794056E04612EF85BFB /* SYABUtilites.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYABUtilites.xcconfig; sourceTree = "<group>"; };
 		FE72EAB9A8EA3649BE8392FA2F86F73D /* Pods_SYABUtilites_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYABUtilites_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF6C27C58A72EAF3209CC76E9BACDE23 /* SYABUtilites-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYABUtilites-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,14 @@
 			path = "Target Support Files/Pods-SYABUtilites_Tests";
 			sourceTree = "<group>";
 		};
+		2DC6E6A49D7A06E4CAE31B9AB9A353AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D354B9EDB47D153F606965A625EC778C /* SYABUtilites */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		31BBB52C72B569249CA7A0FB0CD1FA63 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,36 +136,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3C53A07309FFD3FE7DE1D768F8423346 /* Support Files */ = {
+		57DBE2F6DACC44329B1CD557F4291BC7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD1BE02AA6DC81808D1179209C3376C5 /* SYABUtilites.modulemap */,
-				9459B01733256B3CA367C229ADFA32F7 /* SYABUtilites.xcconfig */,
-				56F3DE3F825CEC080A582C6FB9CC201A /* SYABUtilites-dummy.m */,
-				3091CFE02D58CD7FACE0441CEB8E5AD7 /* SYABUtilites-Info.plist */,
-				FF6C27C58A72EAF3209CC76E9BACDE23 /* SYABUtilites-prefix.pch */,
-				DF8839593280AB087E3AFF624695DF40 /* SYABUtilites-umbrella.h */,
+				CA04E9A712474E73D5E6CD29C834E9C3 /* SYABUtilites.modulemap */,
+				DD6F4F7F72F6F794056E04612EF85BFB /* SYABUtilites.xcconfig */,
+				2FE8C72EEC9824E280FE686CAD87DE80 /* SYABUtilites-dummy.m */,
+				98DC041C5037E90FD285238E22972D07 /* SYABUtilites-Info.plist */,
+				6EDCD3902E1BFC85B8F991453C31CB07 /* SYABUtilites-prefix.pch */,
+				C1E6F9262A0242CDFC5F088A5867C095 /* SYABUtilites-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SYABUtilites";
 			sourceTree = "<group>";
 		};
-		52077E8A40E66713BEC0B33E9DC68C31 /* Development Pods */ = {
+		6361668A5B83C84435EFD2FE26096F4B /* UIApplication */ = {
 			isa = PBXGroup;
 			children = (
-				E1666A6C18AD4487C3D50E05DCB45253 /* SYABUtilites */,
+				82D32EC752DEAB6DA5E5A1AAFC17B4AC /* UIApplication+SYAB.swift */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5DE253AF2BFAF6BF77A3E38044AE4D86 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1B84B989ABB55B3E825F3E887CB9CAC2 /* LICENSE */,
-				64E476DC4F41A6FE766483A7F61544A0 /* README.md */,
-				193B018F7C8B1DB0458A741FAE2B30CA /* SYABUtilites.podspec */,
-			);
-			name = Pod;
+			name = UIApplication;
 			sourceTree = "<group>";
 		};
 		63B8296CFE0CA82469BBC0ACA16B5527 /* Pods-SYABUtilites_Example */ = {
@@ -183,6 +185,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		88581B45222FAA7B00804279 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				88581B46222FAA8900804279 /* UIDevice+SYAB.swift */,
+			);
+			name = UIDevice;
+			path = SYABUtilites/Classes/UIDevice;
+			sourceTree = "<group>";
+		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				52077E8A40E66713BEC0B33E9DC68C31 /* Development Pods */,
+				2DC6E6A49D7A06E4CAE31B9AB9A353AC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				74D8D53894BFCE4F6A621A540F70D19B /* Products */,
 				31BBB52C72B569249CA7A0FB0CD1FA63 /* Targets Support Files */,
@@ -210,15 +221,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1666A6C18AD4487C3D50E05DCB45253 /* SYABUtilites */ = {
+		D354B9EDB47D153F606965A625EC778C /* SYABUtilites */ = {
 			isa = PBXGroup;
 			children = (
-				0BB6343F861123D2D80EA101ED8AF0EF /* ReplaceMe.swift */,
-				5DE253AF2BFAF6BF77A3E38044AE4D86 /* Pod */,
-				3C53A07309FFD3FE7DE1D768F8423346 /* Support Files */,
+				88581B45222FAA7B00804279 /* UIDevice */,
+				DAB05A79118299CB77A7827062072BE3 /* Macro */,
+				E75EFCB95E87E943905744C8B877A79D /* Pod */,
+				57DBE2F6DACC44329B1CD557F4291BC7 /* Support Files */,
+				6361668A5B83C84435EFD2FE26096F4B /* UIApplication */,
 			);
 			name = SYABUtilites;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		DAB05A79118299CB77A7827062072BE3 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				DC634A6D542B32C793A92769D073DFA4 /* SYABConst.swift */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		E75EFCB95E87E943905744C8B877A79D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70B8A1DED16F34BB96843EFB577671FA /* LICENSE */,
+				9FDA47E35942F0B2F62BAAC2C02571BA /* README.md */,
+				771316A320C9FC7752C2A30B29B2E840 /* SYABUtilites.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +287,7 @@
 			buildConfigurationList = 45D2C9066B1AEF819262445E97EEC590 /* Build configuration list for PBXNativeTarget "SYABUtilites" */;
 			buildPhases = (
 				F2CF4ADFE18F70C923E7D2C450849F5F /* Headers */,
-				A6E63FDB88FAE983F57DBDA60C345F54 /* Sources */,
+				A675B35063A7EE153F8AF876053F600D /* Sources */,
 				84F54A04A5D28C28E7ADAB86F80CB6B3 /* Frameworks */,
 				948CED7AE6465FFC2C905D4BDFA3F846 /* Resources */,
 			);
@@ -315,6 +346,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					56AFC2AA61791622EEB927FE62889B58 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -360,12 +396,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6E63FDB88FAE983F57DBDA60C345F54 /* Sources */ = {
+		A675B35063A7EE153F8AF876053F600D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23AE1F5ED2111B5C9779448461754192 /* ReplaceMe.swift in Sources */,
-				D9AA3C12970ECB695B3660282C8D3E18 /* SYABUtilites-dummy.m in Sources */,
+				A8C92E6B992741D2E095E2FFB58341FE /* SYABConst.swift in Sources */,
+				ED156363720656ED55E51B154003E2EE /* SYABUtilites-dummy.m in Sources */,
+				1D8E75A102BDE7D53C0F026931849DBD /* UIApplication+SYAB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88581B47222FAA8900804279 /* UIDevice+SYAB.swift in Sources */,
 				6E4C834ABB7BCF23284316200ECBDAB4 /* Pods-SYABUtilites_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +446,7 @@
 			baseConfigurationReference = 309AD47290CF422C0BE9DA99D1A1B92F /* Pods-SYABUtilites_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -430,11 +469,45 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		07EC324A978F6A14A31BFFF1662742F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6F4F7F72F6F794056E04612EF85BFB /* SYABUtilites.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYABUtilites/SYABUtilites-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYABUtilites/SYABUtilites-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYABUtilites/SYABUtilites.modulemap";
+				PRODUCT_MODULE_NAME = SYABUtilites;
+				PRODUCT_NAME = SYABUtilites;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		384B7EFB4C15E51AA34AC4585784CFE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -533,37 +606,6 @@
 			};
 			name = Debug;
 		};
-		C11540E6EFB0E44934B2D45BAF5380E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9459B01733256B3CA367C229ADFA32F7 /* SYABUtilites.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SYABUtilites/SYABUtilites-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SYABUtilites/SYABUtilites-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SYABUtilites/SYABUtilites.modulemap";
-				PRODUCT_MODULE_NAME = SYABUtilites;
-				PRODUCT_NAME = SYABUtilites;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CA47D163C8CAC5BE6A7026553E73E6DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 044CB5A32D96BEA60122A5BDA0A90E8F /* Pods-SYABUtilites_Tests.release.xcconfig */;
@@ -598,9 +640,9 @@
 			};
 			name = Release;
 		};
-		D3BB432571747B0FEA42938B24356047 /* Release */ = {
+		CC23CED1BD6BDF1178D472DFA96803D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9459B01733256B3CA367C229ADFA32F7 /* SYABUtilites.xcconfig */;
+			baseConfigurationReference = DD6F4F7F72F6F794056E04612EF85BFB /* SYABUtilites.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -614,7 +656,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SYABUtilites/SYABUtilites-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SYABUtilites/SYABUtilites-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SYABUtilites/SYABUtilites.modulemap";
 				PRODUCT_MODULE_NAME = SYABUtilites;
@@ -624,11 +666,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -694,6 +735,7 @@
 			baseConfigurationReference = AE2B6404A26D37BDE7C57E730FE3EE7E /* Pods-SYABUtilites_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -716,6 +758,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -738,8 +781,8 @@
 		45D2C9066B1AEF819262445E97EEC590 /* Build configuration list for PBXNativeTarget "SYABUtilites" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C11540E6EFB0E44934B2D45BAF5380E3 /* Debug */,
-				D3BB432571747B0FEA42938B24356047 /* Release */,
+				CC23CED1BD6BDF1178D472DFA96803D9 /* Debug */,
+				07EC324A978F6A14A31BFFF1662742F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
